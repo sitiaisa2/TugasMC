@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "484389902216",
+    "project_id": "mcsiti",
+    "storage_bucket": "mcsiti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484389902216:android:5449ed7f1fe64117174c3d",
+        "android_client_info": {
+          "package_name": "com.example.ibusiti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCb15jHeQiISFvZt5_eWNdTJM8OqNwzqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

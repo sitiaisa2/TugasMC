@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Activity.AddActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fira_mono_medium"
+        android:text="Judul Menu"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/inputJudulAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input2"
+        android:fontFamily="@font/fira_mono"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:src="@drawable/random"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnAddImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_btn2"
+        android:elevation="2dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fira_mono_bold"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Pilih Gambar"
+        android:textColor="#fff"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Menu"
+        android:fontFamily="@font/fira_mono_medium"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/inputDeskripsiAdd"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_input2"
+        android:fontFamily="@font/fira_mono"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="12dp"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fira_mono_medium"
+        android:text="Harga Menu (Rp)"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/inputHargaAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_input2"
+        android:fontFamily="@font/fira_mono"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn2"
+            android:elevation="2dp"
+            android:fontFamily="@font/fira_mono_bold"
+            android:letterSpacing="0.1"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Kembali"
+            android:textColor="#fff"
+            tools:ignore="ButtonStyle,HardcodedText,SpeakableTextPresentCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn"
+            android:elevation="2dp"
+            android:fontFamily="@font/fira_mono_bold"
+            android:letterSpacing="0.1"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Simpan"
+            android:textColor="#fff"
+            tools:ignore="ButtonStyle,HardcodedText,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</LinearLayout>
